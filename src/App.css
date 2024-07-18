@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500&family=Poppins&family=Space+Mono&display=swap');
+
+/* ================akhtar bhai================ */
+.bg-image {
+    background-image: url('./assets/images/image9.png');
+    height: auto;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/* ==========about page========== */
+.topaboutbanner{
+    background-image: url('./assets/images/img.png');
+       background-repeat: no-repeat;
+   background-size: 100% 100%;
+   
+  }
+
+  .aboutpages{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .aboutpages .slick-next{
+    display: none !important;
+  }
+
+  .aboutpages .slick-prev{
+    display: none !important;
+  }
+
+  .aboutpages .slider-container{
+    position: relative;
+  }
+
+  /* =============helppage======== */
+
+  .helpbgpic{
+    background-image: url('./assets/images/img10.png');
+    background-repeat: no-repeat;
+background-size: 100% 100%;
+height:300px;
+
+  }
+
+  .helppage{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .ant-modal-mask{
+    background-color: rgba(199, 195, 195,0.4) !important; /* Adjust the background color and opacity as needed */
+  }
+
+  /* .userdashboardpopup > .ant-modal-footer{
+    display: none !important;
+  } */
+
+  @media(min-width:320px){
+    .helpbgpic{
+      height:18.75rem;
+    }
+  }
+
+  @media(min-width:7680px){
+   
+    .helpbgpic{
+      height:31.25rem;
+    }
+  }
+
+
+  /* ==============mission page========== */
+  .missionbgpic{
+    background-image: url('./assets/images/img18.png');
+    background-repeat: no-repeat;
+background-size: 100% 100%;
+
+  }
+
+  @media(min-width:320px){
+    .missionbgpic{
+      height: 18.75rem;
+    }
+  }
+
+  @media(min-width:768px){
+    .missionbgpic{
+      height: 25rem;
+    }
+  }
+
+    /* ==============contact page========== */
+
+  .contactbgpic{
+    background-image: url('./assets/images/img18.png');
+    background-repeat: no-repeat;
+background-size: 100% 100%;
+height:25rem;
+  }
+
+@media(min-width:320px){
+  .contactbgpic{
+    
+height:18.75rem;
+margin-bottom: 1.875rem;
+  }
+}
+
+@media(min-width:768px){
+  .contactbgpic{
+    
+height: 25rem;
+margin-bottom:0px;
+  }
+}
+  
+
+    /* ==============error page========== */
+
+  .errorpage{
+    background-image: url('./assets/images/image5.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+
+    /* ==============error page========== */
+
+
+
+  @media(min-width:320px){
+    .errorpage img{
+  max-height: 17.5rem;
+    }
+    .headingsorry{
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media(min-width:990px){
+    .errorpage img{
+  max-height: 23.75rem;
+    }
+    .headingsorry{
+      font-size: 2rem;
+    }
+  }
+  
+  
+  
+  /* ==========about====================== */
+  .ourvalues{
+    background-image: url('./assets/images/img4.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .child-img { /* Set initial width */
+    transition: width 0.3s ease; /* Add transition effect */
+  }
+  
+  .child-img1 { /* Set initial width */
+    transition: width 0.3s ease; /* Add transition effect */
+  }
+  
+  .child-img2 { /* Set initial width */
+    transition: width 0.3s ease; /* Add transition effect */
+  }
+  
+  .child-img3 { /* Set initial width */
+    transition: width 0.3s ease; /* Add transition effect */
+  }
+  
+  /* When parent div is hovered, change the width of child image */
+  .parent-div:hover .child-img {
+    width: 3px; /* Set width to 3px on hover */
+  }
+  .parent-div1:hover .child-img1 {
+    width: 3px; /* Set width to 3px on hover */
+  }
+  .parent-div2:hover .child-img2 {
+    width: 3px; /* Set width to 3px on hover */
+  }
+  .parent-div3:hover .child-img3 {
+    width: 3px; /* Set width to 3px on hover */
+  }
+  
+  .slider-container {
+    width: 77%;
+    margin-left: auto !important;
+  margin-right: auto;
+  }
+  
+  .slider-container .slick-center img{
+    transform: scale(1.1);
+  }
+  
+  .slick-dots li button:before{
+    font-size: 13px !important;
+    color: gray;
+  }
+  
+  
+  .slider-container h3{
+    display: flex;
+    justify-content: center;
+  }
+  
+ 
+
+  .slider-container h3 img{
+    max-width: 90%;
+  }
+  @media(min-width:768px){
+    .valueslastpara{
+      margin-top: 1.25rem !important;
+    }
+  }
+  
+  
+  @media(min-width:992px){
+    .slider-container h3 img{
+      max-width: 100% !important;
+    }
+    .slider-container {
+      width: 95%;
+      margin-left: auto !important;
+    margin-right: auto;
+    }
+    .slider-container .slick-center  img{
+      height: 11.875rem;
+    }
+    div.slick-slide.slick-cloned{
+
+      margin-top: 1.688rem !important;
+    }
+    div.slick-slide.slick-active{
+      margin-top: 1.688rem !important;
+    }
+    div.slick-slide.slick-active.slick-center.slick-current{
+      margin-top: -0.125rem !important;
+    }
+    div.slick-slide{
+      margin-top: 1.688rem;
+    }
+   
+  }
+
+  /* ==============contactpage============= */
+
+@media(min-width:768px){
+  .contactleftparent{
+display: flex;
+justify-content: center !important;
+  }
+  .LastNamecontact{
+    margin-top: 0px !important;
+    margin-left: 0.625rem !important;
+    width: 98% !important;
+  }
+  .telephoneparent{
+    margin-top: 0px !important;
+
+  }
+  .Telephonecontact{
+    margin-top: 0px !important;
+    margin-left: 0.625rem !important;
+    width: 98% !important;
+  }
+}
+ 
+@media(min-width:990px){
+  .contactleftparent{
+display: flex;
+justify-content: end !important;
+  }
+}
+  
+
+/* ==========newspage=========== */
+
+.Apnanewsbgpic{
+  background-image: url('./assets/images/img18.png');
+    background-repeat: no-repeat;
+background-size: 100% 100%;
+height:31.25rem;
+}
+
+:where(.css-dev-only-do-not-override-usln0u).ant-pagination .ant-pagination-item-active{
+  background-color: rgb(59, 59, 249);
+  color: white;
+  font-size: 0.875rem;
+}
+
+:where(.css-dev-only-do-not-override-usln0u).ant-pagination .ant-pagination-item-active:hover a {
+  color: white;
+}
+
+:where(.css-dev-only-do-not-override-usln0u).ant-pagination .ant-pagination-item-active a{
+  color: white;
+}
+
+:where(.css-dev-only-do-not-override-usln0u).ant-rate{
+  font-size: 0.813rem;
+}
+
+:where(.css-dev-only-do-not-override-usln0u).ant-rate .ant-rate-star:not(:last-child){
+  margin-inline-end: 0px;
+}
+
+.apnanewspage{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+@media(min-width:320px){
+  .Apnanewsbgpic{
+    height: 19.25rem;
+  }
+}
+
+@media(min-width:990px){
+  .Apnanewsbgpic{
+    height: 31.25rem;
+  }
+  
+}
+
+/* ============= businesshomepage ============= */
+
+.businesshomepagebanner{
+  background-image:  url('./assets/images/img24.png');
+  background-repeat: no-repeat;
+background-size: 100% 100%;
+height:19.25rem;
+
+}
+
+.businessoverlay{
+  height:19.25rem;
+
+  background-color: rgba(24, 23, 23, 0.7);
+}
+
+.businesshomepage{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media(min-width:320px){
+  .businesshomepagebanner{
+    height: 19.25rem;
+  }
+}
+
+@media(min-width:768px){
+  .businesshomepagebanner{
+    height: 37rem;
+  }
+  .businessoverlay{
+    height: 37rem;
+  }
+}
+
+
+/* ===================businesspage sliding text================== */
+
+
+
+
+.businesshomepage  .slick-next{
+display: none !important;
+}
+
+.businesshomepage .slick-prev{
+  display: none !important;
+
+}
+
+.businesshomepage .slick-dots{
+  display: none !important;
+
+}
+
+.businesshomepage .slider-container .slick-center img{
+  transform: scale(1);
+}
+
+.businesshomepage .slider-container {
+  width: 98%;
+  margin-left: auto !important;
+margin-right: auto;
+}
+
+.businesshomepage .slider-container h3{
+align-items: center !important;
+}
+
+
+@media(min-width:992px){
+ 
+ 
+  .businesshomepage .slider-container .slick-center  img{
+    height: 6.25rem;
+  }
+  .businesshomepage div.slick-slide.slick-cloned{
+
+    margin-top: 0rem !important;
+  }
+  .businesshomepage div.slick-slide.slick-active{
+    margin-top: 0rem !important;
+  }
+  .businesshomepage div.slick-slide.slick-active.slick-center.slick-current{
+    margin-top: 0rem !important;
+  }
+  .businesshomepage div.slick-slide{
+    margin-top:0rem;
+  }
+ 
+}
+
+
+/* ===============features-================== */
+
+.featureslastimg{
+  background-image:  url('./assets/images/IMG33.png');
+  background-repeat: no-repeat;
+background-size: 100% 100%;
+height:14.375rem;
+}
+
+.border{
+  box-shadow: 0px 2px 4px 0px #EDEDED;
+}
+
+@media(min-width:768px){
+  .businesshomepagebanner{
+  
+  height:22.5rem;
+  
+  }
+  
+  .businessoverlay{
+    height:22.5rem;
+  
+   
+  }
+}
+
+
+/* =================public review============== */
+
+.publicreviewrating :where(.css-dev-only-do-not-override-usln0u).ant-rate .ant-rate-star:not(:last-child) {
+  color: green;
+}
+
+.publicreviewpage{
+  font-family: Arial;
+
+}
+
+
+/* =========search result page============= */
+
+.searchresultfooter{
+  margin-top: -0.75rem !important;
+}
+
